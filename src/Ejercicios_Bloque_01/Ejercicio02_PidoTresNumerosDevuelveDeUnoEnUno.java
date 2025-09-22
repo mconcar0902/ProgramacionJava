@@ -6,7 +6,6 @@ public class Ejercicio02_PidoTresNumerosDevuelveDeUnoEnUno {
 
 	
 	public static void main(String[] args) {
-		// TODO Esbozo de método generado automáticamente
 	
 		Scanner sc = new Scanner(System.in);
 		
