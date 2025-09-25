@@ -35,8 +35,6 @@ public class Ejercicio06_CalculosCuotaHipoteca {
 		System.out.println(" ");
 		System.out.println("La cuota mensual de la hipoteca es de " + CuotaM);
 		
-		
-
 	}
 
 }

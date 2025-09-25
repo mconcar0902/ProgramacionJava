@@ -19,8 +19,6 @@ public class Ejercicio04_PideTresNumerosHaceLaMedia {
 		
 		System.out.println("La media de los tres numeros es " + (Num1+Num2+Num3)/3);
 		
-		
-
 	}
 
 }

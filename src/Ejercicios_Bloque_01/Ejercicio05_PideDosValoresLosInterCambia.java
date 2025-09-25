@@ -12,7 +12,6 @@ public class Ejercicio05_PideDosValoresLosInterCambia {
 		String Palabra2 ;
 		String Intercambio ;
 		
-		
 		System.out.print("Esciba la primera palabra: ");
 		Palabra1 = sc.nextLine();
 		
