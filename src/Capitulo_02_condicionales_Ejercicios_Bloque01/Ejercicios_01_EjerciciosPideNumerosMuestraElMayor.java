@@ -8,17 +8,19 @@ public class Ejercicios_01_EjerciciosPideNumerosMuestraElMayor {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Escibe el primer numero: ");
+		System.out.print("Escibe el primer numero: ");
 		int num = sc.nextInt();
 		
-		System.out.println("Escibe el segundo numero: ");
+		System.out.print("Escibe el segundo numero: ");
 		int num1 = sc.nextInt();
 		
+		System.out.println();
+		
 		if (num > num1) {
-			System.out.println("El numero mayor es " + num);
+			System.out.print("El numero mayor es " + num);
 		}
 		else if (num < num1){
-			System.out.println("El numero mayor es " + num1);
+			System.out.print("El numero mayor es " + num1);
 		}
 	}
 

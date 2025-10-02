@@ -8,11 +8,13 @@ public class Ejercicio_02_PideDosNumerosMuestaElMenor {
 	
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Escribe un numero: ");
+		System.out.print("Escribe un numero: ");
 		int num = sc.nextInt();
 		
-		System.out.println("Escribe otro numero: ");
+		System.out.print("Escribe otro numero: ");
 		int num1 = sc.nextInt();
+		
+		System.out.println();
 		
 		if (num < num1) {
 			System.out.println("El numero menor es " + num );

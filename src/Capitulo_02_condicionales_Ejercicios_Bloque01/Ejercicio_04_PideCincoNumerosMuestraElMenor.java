@@ -8,31 +8,32 @@ public class Ejercicio_04_PideCincoNumerosMuestraElMenor {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Escribe el primer numero: ");
+		System.out.print("Escribe el primer numero: ");
 		int menor = sc.nextInt();
 
-		System.out.println("Escribe el segundo numero: ");
+		System.out.print("Escribe el segundo numero: ");
 		int num = sc.nextInt();
 		
 		if (menor > num) {
 			menor = num ;
 		}
 		
-		System.out.println("Escribe el tercer numero: ");
+		System.out.print("Escribe el tercer numero: ");
 		num = sc.nextInt();
 		
 		if (menor > num) {
 			menor = num ;	
 		}
-		System.out.println("Escribe el cuarto numero: ");
+		System.out.print("Escribe el cuarto numero: ");
 		num = sc.nextInt();	
 		
 		if (menor > num) {
 			menor = num ;	
 		}
-		System.out.println("Escribe el quinto numero: ");
+		System.out.print("Escribe el quinto numero: ");
 		num = sc.nextInt();
 		
+		System.out.println();
 		System.out.println("El numero menor es " + menor );
 
 	}
