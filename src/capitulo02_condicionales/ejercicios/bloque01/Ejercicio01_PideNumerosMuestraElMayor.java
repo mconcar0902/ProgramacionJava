@@ -1,8 +1,8 @@
-package Capitulo_02_condicionales_Ejercicios_Bloque01;
+package capitulo02_condicionales.ejercicios.bloque01;
 
 import java.util.Scanner;
 
-public class Ejercicios_01_EjerciciosPideNumerosMuestraElMayor {
+public class Ejercicio01_PideNumerosMuestraElMayor {
 
 	public static void main(String[] args) {
 		
