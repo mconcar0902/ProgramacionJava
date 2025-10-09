@@ -1,11 +1,11 @@
-package capitulo01.bloque01;
+package capitulo01.ejercicios.bloque01;
 
 import java.util.Scanner;
 
-public class Ejercicio03_PideTresNumerosLosSuma {
+public class Ejercicio04_PideTresNumerosHaceLaMedia {
 
 	public static void main(String[] args) {
-
+		
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Escribe el primer numero entero: ");
@@ -17,8 +17,7 @@ public class Ejercicio03_PideTresNumerosLosSuma {
 		System.out.print("Escribe el tercer numero entero: ");
 		int Num3 = sc.nextInt();
 		
-		System.out.println("La suma de los numeros " + (Num1+Num2+Num3));
-		
+		System.out.println("La media de los tres numeros es " + (Num1+Num2+Num3)/3);
 		
 	}
 
