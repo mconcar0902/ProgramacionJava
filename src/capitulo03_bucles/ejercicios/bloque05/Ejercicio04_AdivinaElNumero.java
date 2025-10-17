@@ -16,7 +16,7 @@ public class Ejercicio04_AdivinaElNumero {
 		
 		System.out.println("Debes adivinar un numero aleatorio entre el " + min + " y el " + max);
 		
-		int n = (int) (Math.random() * (max - min + 1) + min);
+		int n = (int) Math.round(Math.random() * (max - min + 1) + min);
 		
 		int num = 0;
 		

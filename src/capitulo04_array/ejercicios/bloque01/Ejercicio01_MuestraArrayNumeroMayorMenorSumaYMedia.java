@@ -10,7 +10,7 @@ public class Ejercicio01_MuestraArrayNumeroMayorMenorSumaYMedia {
 		
 		
 		for (int i = 0 ; i < numeros.length ; i++) {
-			numeros[i] = (int) (Math.random() * 100 + 1 ) ;
+			numeros[i] = (int) Math.round(Math.random() * 100 ) ;
 		}
 		
 		int menor = numeros[1];

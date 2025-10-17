@@ -7,7 +7,7 @@ public class Ejercicio06_SumaLosNumerosConIndicePar {
 		int[] numeros = new int[150];	
 		
 		for (int i = 0 ; i < numeros.length ; i++) {
-			numeros[i] = (int) (Math.random() * 100 + 1 ) ;
+			numeros[i] = (int) Math.round(Math.random() * 100 ) ;
 		}
 		
 		int suma = 0;

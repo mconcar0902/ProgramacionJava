@@ -11,7 +11,7 @@ public class Ejercicio04_PideUnNumeroLoBuscaEnElArray {
 		int[] numeros = new int[150];	
 		
 		for (int i = 0 ; i < numeros.length ; i++) {
-			numeros[i] = (int) (Math.random() * 100 + 1 ) ;
+			numeros[i] = (int) Math.round(Math.random() * 100 ) ;
 		}
 		
 		System.out.print("Introduce un numero entre 0 y 100: ");
