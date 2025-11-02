@@ -8,7 +8,7 @@ public class Ejercicio01_LeeStringInvierteLaCadena {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Escribe una cadena de caracteres: ");
-		String str = sc.next();
+		String str = sc.nextLine();
 		
 		muestraLaCadena(str);
 		invierteLaCadena(str);

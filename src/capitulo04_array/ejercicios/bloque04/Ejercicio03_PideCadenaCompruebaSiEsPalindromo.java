@@ -8,7 +8,7 @@ public class Ejercicio03_PideCadenaCompruebaSiEsPalindromo {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Escribe una cadena de caracteres: ");
-		String str = sc.next();
+		String str = sc.nextLine();
 		muestraLaCadenaInversa(str);
 		
 		if (compruebaSiEsPalindromo(str)) {
