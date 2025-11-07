@@ -32,7 +32,7 @@ public class Ejercicio05_CompruebaAlfabeticamenteCualEsElOrden {
 	public static int ordenAlfabeticoDeDosCadenas(String string1 , String string2) {
 		
 		int min = Math.min(string1.length(), string2.length());
-		int ord ;
+		int ord = 0 ;
 		
 		for (int i = 0; i < min ; i++) {
 			if(string1.charAt(i) != string2.charAt(i)) {
@@ -46,7 +46,7 @@ public class Ejercicio05_CompruebaAlfabeticamenteCualEsElOrden {
 				}
 			}
 		}
-		return 0;
+		return ord;
 
 	}
 
