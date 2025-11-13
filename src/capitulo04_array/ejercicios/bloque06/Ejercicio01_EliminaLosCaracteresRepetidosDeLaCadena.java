@@ -48,10 +48,6 @@ public class Ejercicio01_EliminaLosCaracteresRepetidosDeLaCadena {
 				resultado = resultado + actual ;
 			}
 		}
-		
-		
 		return resultado;
 	}
-	
-
 }

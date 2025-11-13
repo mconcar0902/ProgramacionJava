@@ -46,6 +46,9 @@ public class Ejercicio02_CompruebaSiEsUnAnagrama {
 	 * 
 	 */
 	 public static boolean compruebaSiEsAnagrama(String str1 , String str2) {
+		if (str1.length() != str2.length()) {
+			return false;
+		}
 		
 		boolean esAnagrama = true;
 		for (int i = 0; i < str1.length(); i++) {
@@ -56,7 +59,15 @@ public class Ejercicio02_CompruebaSiEsUnAnagrama {
 				break;
 			}
 		} 
-		 
+		
+		for (int i = 0; i < str2.length(); i++) {
+			char actual = str2.charAt(i);
+			
+			if (str1.indexOf(actual) == -1) {
+				esAnagrama = false;
+				break;
+			}
+		} 
 		return esAnagrama;	 
-		}
+	}
 }
