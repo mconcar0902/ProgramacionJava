@@ -156,28 +156,26 @@ public class Ejercicio01_MetodosMatrices {
 	 * 
 	 * 
 	 */
-	public static void compruebaLaMatrizSiEsDispersa() {
+	public static boolean compruebaLaMatrizSiEsDispersa() {
 		int m[][] = new int[][] {{1, 0, 5, 8}, 
 								{4, 5, 0, 1}, 
 								{6, 8, 9, 0}, 
 								{0, 7, 5, 1}};
 				
-		int cont = 0;
-						
+								
 		for (int i = 0; i < m.length; i++) {
+			boolean hayCero = false;
 			for (int j = 0; j < m[i].length; j++) {
 				if(m[i][j] == 0) {
-					cont += 1;
+					hayCero = true;
 				}
+			}
+			if (!hayCero) {
+				return false;
 			}
 		}
 		
-		if (cont >= m.length) {
-			System.out.println("Si es disperso");
-		}
-		else {
-			System.out.println("no es disperso");
-		}
+		return true;
 	}
 	
 	/**
