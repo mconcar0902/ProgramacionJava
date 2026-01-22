@@ -32,7 +32,7 @@ public class Banco {
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.print("Escribe la tasa de interes: ");
-		tasaInteres = sc.nextInt();
+		tasaInteres = sc.nextFloat();
 	}
 
 	

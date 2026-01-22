@@ -16,7 +16,7 @@ public class Principal {
 			banco.toString();
 		}
 		
-		System.out.println("Quieres cambiar la tasa de interes (1-Si o 0-No): ");
+		System.out.print("Quieres cambiar la tasa de interes (1-Si o 0-No): ");
 		int n = sc.nextInt();
 		if (n == 1) {
 			Banco.cambiarTasaInteres();
@@ -31,7 +31,7 @@ public class Principal {
 			System.out.println();
 		}
 		
-		System.out.println("Quieres salir (1-Si o 0-No): ");
+		System.out.print("Quieres salir (1-Si o 0-No): ");
 		opc = sc.nextInt();
 		
 	} while (opc != 1);

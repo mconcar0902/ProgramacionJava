@@ -4,13 +4,17 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
-		Producto productos[] = new Producto[100];
-		
-		for (int i = 0; i < productos.length; i++) {
-			productos[i] = new Producto();
-		}
+		Producto p1 = new Producto("Producto A");
+		Producto p2 = new Producto("Producto B");
+		Producto p3 = new Producto("Producto C");
+		Producto p4 = new Producto("Producto D");
 
 		Producto.tenerContador();
+		
+		System.out.println(p1.getNombre());
+		System.out.println(p2.getNombre());
+		System.out.println(p3.getNombre());
+		System.out.println(p4.getNombre());
 
 	}
 
