@@ -4,14 +4,16 @@ public class Principal {
 
 	public static void main(String[] args) {
 
-		ReproductorCD reproductorCD = new ReproductorCD("ReproductorCD");
-		ReproductorMP3 reproductorMP3 = new ReproductorMP3("ReproductorMP3");
+		Reproductor CD = new ReproductorCD("ReproductorCD");
+		Reproductor MP3 = new ReproductorMP3("ReproductorMP3");
 		
-		reproductorMP3.mostrarNombre();
-		reproductorMP3.reproducir();
+		((Dispositivo) MP3).mostrarNombre();
+		MP3.reproducir();
+		
 		System.out.println();
-		reproductorCD.mostrarNombre();
-		reproductorCD.reproducir();
+		
+		((Dispositivo) CD).mostrarNombre();
+		CD.reproducir();
 
 	}
 

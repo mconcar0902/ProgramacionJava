@@ -2,7 +2,7 @@ package capitulo05_objetos.ejercicios.bloque05_interfaces.Ejercicio02;
 
 public class Dispositivo {
 
-	private String nombre;
+	protected String nombre;
 	
 	/**
 	 * 
