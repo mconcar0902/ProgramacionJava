@@ -1,4 +1,4 @@
-package capitulo06_listas.ejercicios.bloque01;
+package capitulo06_listas.ejercicios.bloque01_listas;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,6 +20,9 @@ public class Ejercicio02 {
 			opc = sc.nextInt();
 			
 			switch (opc) {
+			case 0:
+				System.out.println("Saliendo del programa.");
+				break;
 			case 1:
 				añadeLinea(lista);
 				break;
