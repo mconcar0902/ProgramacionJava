@@ -1,4 +1,4 @@
-package capitulo06_listas.ejercicios.bloque03_listasYhashMap.Ejercicio02;
+package capitulo06_coleccionesDeDatos.ejercicios.bloque03_listasYhashMap.Ejercicio02;
 
 public class Tarea {
 

@@ -1,4 +1,4 @@
-package capitulo06_listas.ejercicios.bloque02_hashMap;
+package capitulo06_coleccionesDeDatos.ejercicios.bloque02_hashMap;
 
 import java.util.HashMap;
 import java.util.Scanner;

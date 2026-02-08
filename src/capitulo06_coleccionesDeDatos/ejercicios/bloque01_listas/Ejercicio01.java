@@ -1,4 +1,4 @@
-package capitulo06_listas.ejercicios.bloque01_listas;
+package capitulo06_coleccionesDeDatos.ejercicios.bloque01_listas;
 
 import java.util.ArrayList;
 import java.util.List;

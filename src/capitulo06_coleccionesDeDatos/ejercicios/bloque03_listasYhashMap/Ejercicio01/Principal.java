@@ -1,4 +1,4 @@
-package capitulo06_listas.ejercicios.bloque03_listasYhashMap.Ejercicio01;
+package capitulo06_coleccionesDeDatos.ejercicios.bloque03_listasYhashMap.Ejercicio01;
 
 import java.util.ArrayList;
 import java.util.HashMap;
