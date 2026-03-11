@@ -1,6 +1,5 @@
 package capitulo04_array.ejercicios.bloque07;
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class Ejercicio01_MetodosMatrices {

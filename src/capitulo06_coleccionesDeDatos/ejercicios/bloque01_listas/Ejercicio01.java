@@ -2,8 +2,8 @@ package capitulo06_coleccionesDeDatos.ejercicios.bloque01_listas;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 import java.util.Random;
+import java.util.Scanner;
 
 public class Ejercicio01 {
 

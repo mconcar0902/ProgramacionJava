@@ -3,8 +3,6 @@ package examenes.examen20251212.ejercicio03;
 import java.util.Arrays;
 import java.util.Random;
 
-import javaUtils.JavaUtils;
-
 
 public class Torneo {
 	private Jugador jugadores[] = new Jugador[8];

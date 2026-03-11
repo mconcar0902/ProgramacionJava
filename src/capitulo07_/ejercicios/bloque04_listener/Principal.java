@@ -10,13 +10,9 @@ public class Principal {
 		
 		Calculadora calculadora = new Calculadora();
 		
-		calculadora.addListener(new CalculadoraListener() {
-			
-			@Override
-			public void notificacion(String mensaje) {
-				System.out.println(mensaje);
-			}
-		});
+		calculadora.addListener(new Persona());
+		
+		calculadora.addListener(new Persona());
 		
 		
 		do {
@@ -31,7 +27,7 @@ public class Principal {
 				num1 = sc.nextDouble();
 				
 				if (opc != 5) {
-					System.out.print("\nIntroduce otro numero: ");
+					System.out.print("Introduce otro numero: ");
 					num2 = sc.nextDouble();
 				}
 			}
