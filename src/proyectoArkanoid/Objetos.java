@@ -37,5 +37,17 @@ public abstract class Objetos {
 	public void setY(int y) {
 		this.y = y;
 	}
+	public int getAlto() {
+		return alto;
+	}
+	public void setAlto(int alto) {
+		this.alto = alto;
+	}
+	public int getAncho() {
+		return ancho;
+	}
+	public void setAncho(int ancho) {
+		this.ancho = ancho;
+	}
 	
 }

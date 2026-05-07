@@ -183,25 +183,25 @@ public class ejercicio01Coches extends JFrame {
 		btnPrimerRegistro = new JButton("Cargar primer registro");
 		btnPrimerRegistro.setToolTipText("Cargar primer registro");
 		btnPrimerRegistro.addActionListener( e -> cargarPrimerRegistro());
-		btnPrimerRegistro.setIcon(new ImageIcon(ejercicio01Coches.class.getResource("/capitulo09_/ejercicios/res/gotostart.png")));
+		btnPrimerRegistro.setIcon(new ImageIcon(ejercicio01Coches.class.getResource("/capitulo09_AWT_SWING/ejercicios/res/gotostart.png")));
 		panel.add(btnPrimerRegistro);
 		
 		btnRegistroAnterior = new JButton("Cargar registro anterior");
 		btnRegistroAnterior.setToolTipText("Cargar registro anterior");
 		btnRegistroAnterior.addActionListener( e -> cargarRegistroAnterior());
-		btnRegistroAnterior.setIcon(new ImageIcon(ejercicio01Coches.class.getResource("/capitulo09_/ejercicios/res/previous.png")));
+		btnRegistroAnterior.setIcon(new ImageIcon(ejercicio01Coches.class.getResource("/capitulo09_AWT_SWING/ejercicios/res/previous.png")));
 		panel.add(btnRegistroAnterior);
 		
 		btnSiguienteRegistro = new JButton("Cargar siguiente registro");
 		btnSiguienteRegistro.setToolTipText("Cargar siguiente registro");
 		btnSiguienteRegistro.addActionListener(e -> cargarSiguienteRegistro());
-		btnSiguienteRegistro.setIcon(new ImageIcon(ejercicio01Coches.class.getResource("/capitulo09_/ejercicios/res/next.png")));
+		btnSiguienteRegistro.setIcon(new ImageIcon(ejercicio01Coches.class.getResource("/capitulo09_AWT_SWING/ejercicios/res/next.png")));
 		panel.add(btnSiguienteRegistro);
 		
 		btnUltimoRegistro = new JButton("Cargar último registro");
 		btnUltimoRegistro.setToolTipText("Cargar último registro");
 		btnUltimoRegistro.addActionListener( e -> cargarUltimoRegistro());
-		btnUltimoRegistro.setIcon(new ImageIcon(ejercicio01Coches.class.getResource("/capitulo09_/ejercicios/res/gotoend.png")));
+		btnUltimoRegistro.setIcon(new ImageIcon(ejercicio01Coches.class.getResource("/capitulo09_AWT_SWING/ejercicios/res/gotoend.png")));
 		panel.add(btnUltimoRegistro);
 		
 		JPanel panel_1 = new JPanel();
@@ -215,19 +215,19 @@ public class ejercicio01Coches extends JFrame {
 		JButton btnNuevoRegistro = new JButton("Nuevo registro");
 		btnNuevoRegistro.setToolTipText("Nuevo registro");
 		btnNuevoRegistro.addActionListener( e -> nuevo());
-		btnNuevoRegistro.setIcon(new ImageIcon(ejercicio01Coches.class.getResource("/capitulo09_/ejercicios/res/nuevo.png")));
+		btnNuevoRegistro.setIcon(new ImageIcon(ejercicio01Coches.class.getResource("/capitulo09_AWT_SWING/ejercicios/res/nuevo.png")));
 		panel_1.add(btnNuevoRegistro);
 		
 		JButton btnGuardar = new JButton("Guardar");
 		btnGuardar.setToolTipText("Guardar");
 		btnGuardar.addActionListener( e -> guardar());
-		btnGuardar.setIcon(new ImageIcon(ejercicio01Coches.class.getResource("/capitulo09_/ejercicios/res/guardar.png")));
+		btnGuardar.setIcon(new ImageIcon(ejercicio01Coches.class.getResource("/capitulo09_AWT_SWING/ejercicios/res/guardar.png")));
 		panel_1.add(btnGuardar);
 		
 		JButton btnEliminar = new JButton("Eliminar");
 		btnEliminar.setToolTipText("Eliminar");
 		btnEliminar.addActionListener( e -> eliminar());
-		btnEliminar.setIcon(new ImageIcon(ejercicio01Coches.class.getResource("/capitulo09_/ejercicios/res/eliminar.png")));
+		btnEliminar.setIcon(new ImageIcon(ejercicio01Coches.class.getResource("/capitulo09_AWT_SWING/ejercicios/res/eliminar.png")));
 		panel_1.add(btnEliminar);
 		
 		cargarPrimerRegistro();

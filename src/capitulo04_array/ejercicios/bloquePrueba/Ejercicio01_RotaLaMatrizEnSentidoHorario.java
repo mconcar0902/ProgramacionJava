@@ -1,7 +1,5 @@
 package capitulo04_array.ejercicios.bloquePrueba;
 
-import java.util.Random;
-
 public class Ejercicio01_RotaLaMatrizEnSentidoHorario {
 
 	public static void main(String[] args) {
